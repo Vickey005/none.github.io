@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <style>
+	body{
+	   background-color:grey;
+	   display-content:center;
+}
+	.div img{
+	    filter:satured(0%);
+	    width:55px;
+	    border:2px solid red;
+	    height:350px;
+	    object-fit:cover;
+	    border-radius:12px;
+	    transition:all ease 0.5s;
+	    cursor:pointer;
+}
+.div img:hover{
+	    filter:saturate(100%);
+	    height:700px;
+	    width:700px;
+	    transition:all.5s;
+}
+    </style>
+</head>
+<body>
+     <div class="div">
+    <img src="IMG-20191103-WA0026.jpg" alt="wait">
+    <img src="IMG-20231020-WA0043.jpg" alt="wait">
+    <img src="IMG-20231021-WA0009.jpg" alt="wait">
+    <img src="IMG-20231021-WA0008.jpg" alt="wait">
+     </div>
+  </div>
+    
+</body>
+</html>
